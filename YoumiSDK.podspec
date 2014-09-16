@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
     #有米5.13
   s.framework = 'Security','SystemConfiguration','CFNetwork','QuartzCore','StoreKit'
   s.libraries = 'sqlite3'
-  s.source_files = "lib/include/*.{h,m}"
-  s.vendored_libraries = 'lib/*.a'
+  s.source_files = "youmi_sdk/include/*.{h,m}"
+  s.vendored_libraries = 'youmi_sdk/*.a'
 end
